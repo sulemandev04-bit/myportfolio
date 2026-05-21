@@ -8,7 +8,7 @@ export default function SkillsPage() {
   ];
 
   return (
-    <section className="min-h-screen bg-[#050505] py-20 px-6">
+    <section className="min-h-screen bg-[#050505] py-16 px-4 sm:px-6 overflow-hidden">
       <h2 className="text-4xl font-bold text-center text-white mb-16">Technical Skills</h2>
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
         {categories.map((cat, i) => (

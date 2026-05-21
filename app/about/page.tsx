@@ -9,11 +9,11 @@ export default function AboutPage() {
   ];
 
   return (
-    <section className="min-h-screen bg-[#050505] text-white py-20 px-6 overflow-hidden relative">
+    <section className="min-h-screen bg-[#050505] text-white py-16 px-4 sm:px-6 overflow-hidden relative">
       {/* Background Ambient Glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-125 h-125 bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 sm:w-96 sm:h-96 bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none" />
 
-      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         
         {/* Left Side: Content */}
         <div className="z-10">

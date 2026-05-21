@@ -4,7 +4,7 @@ export default function ContactPage() {
   return (
     <section className="min-h-screen bg-[#050505] text-white py-16 px-4 sm:px-6 relative overflow-hidden">
       {/* Background Decorative Glow */}
-      <div className="absolute -top-16 right-0 sm:right-0 w-60 h-60 sm:w-100 sm:h-100 bg-cyan-500/5 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute -top-16 right-0 sm:right-0 w-60 h-60 sm:w-80 sm:h-80 bg-cyan-500/5 rounded-full blur-[120px] pointer-events-none" />
       
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}

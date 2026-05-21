@@ -47,7 +47,7 @@ export default function HeroPage() {
       </div>
 
       {/* Updated Social Links with your data */}
-      <div className="flex gap-6 items-center">
+      <div className="flex flex-wrap justify-center gap-4 sm:gap-6 items-center">
         <a href="https://github.com/sulemandev04-bit" target="_blank" rel="noreferrer" className="flex flex-col items-center gap-1 group">
           <div className="p-3 bg-white text-black border border-white/20 rounded-xl group-hover:text-cyan-400 group-hover:border-cyan-400/50 transition-all">
             <ExternalLink size={24} className="transition-transform duration-200 ease-out group-hover:scale-110" />
