@@ -23,26 +23,35 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           {/* Left Side: Contact Info Cards (Bento Style) */}
           <div className="lg:col-span-5 space-y-4">
-            <a href="mailto:sulemandev04@gmail.com" className="group block p-6 rounded-3xl bg-white/2 border border-white/5 hover:border-cyan-500/30 transition-all">
-              <div className="flex items-center gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <a href="mailto:sulemandev04@gmail.com" className="p-6 rounded-3xl bg-white/2 border border-white/5 hover:border-cyan-500/30 transition-all flex flex-col items-center gap-4">
                 <div className="p-4 rounded-2xl bg-cyan-500/10 text-cyan-400 group-hover:scale-110 transition-transform">
                   <Mail size={24} />
                 </div>
-                <div>
-                  <p className="text-xs text-gray-500 uppercase font-bold tracking-widest">Email Me</p>
-                  <p className="text-lg font-medium">sulemandev04@gmail.com</p>
+                <div className="text-center">
+                  <p className="text-xs text-gray-500 uppercase font-bold tracking-widest">Email</p>
+                  <p className="text-sm sm:text-lg font-medium">sulemandev04@gmail.com</p>
                 </div>
-              </div>
-            </a>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <a href="https://linkedin.com" className="p-6 rounded-3xl bg-white/2 border border-white/5 hover:border-blue-500/30 transition-all flex flex-col gap-4">
-                <ExternalLink className="text-blue-500" />
-                <span className="font-bold">LinkedIn</span>
               </a>
-              <a href="https://github.com/sulemandev04-bit" className="p-6 rounded-3xl bg-white/2 border border-white/5 hover:border-gray-400/30 transition-all flex flex-col gap-4">
-                <ExternalLink className="text-gray-200" />
-                <span className="font-bold">GitHub</span>
+
+              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="p-6 rounded-3xl bg-white/2 border border-white/5 hover:border-blue-500/30 transition-all flex flex-col items-center gap-4">
+                <div className="p-4 rounded-2xl bg-white text-black">
+                  <ExternalLink className="text-blue-500" />
+                </div>
+                <div className="text-center">
+                  <p className="text-xs text-gray-500 uppercase font-bold tracking-widest">LinkedIn</p>
+                  <p className="text-sm sm:text-lg font-medium">linkedin.com</p>
+                </div>
+              </a>
+
+              <a href="https://github.com/sulemandev04-bit" target="_blank" rel="noreferrer" className="p-6 rounded-3xl bg-white/2 border border-white/5 hover:border-gray-400/30 transition-all flex flex-col items-center gap-4">
+                <div className="p-4 rounded-2xl bg-white text-black">
+                  <ExternalLink className="text-gray-200" />
+                </div>
+                <div className="text-center">
+                  <p className="text-xs text-gray-500 uppercase font-bold tracking-widest">GitHub</p>
+                  <p className="text-sm sm:text-lg font-medium">github.com/sulemandev04-bit</p>
+                </div>
               </a>
             </div>
 

@@ -1,4 +1,4 @@
-import { Mail, FileText, ArrowRight, Phone, ExternalLink, User } from "lucide-react";
+import { FileText, ArrowRight } from "lucide-react";
 
 export default function HeroPage() {
   return (
@@ -46,33 +46,7 @@ export default function HeroPage() {
         </a>
       </div>
 
-      {/* Updated Social Links with your data */}
-      <div className="flex flex-wrap justify-center gap-4 sm:gap-6 items-center">
-        <a href="https://github.com/sulemandev04-bit" target="_blank" rel="noreferrer" className="flex flex-col items-center gap-1 group">
-          <div className="p-3 bg-white text-black border border-white/20 rounded-xl group-hover:text-cyan-400 group-hover:border-cyan-400/50 transition-all">
-            <ExternalLink size={24} className="transition-transform duration-200 ease-out group-hover:scale-110" />
-          </div>
-          <span className="text-[10px] text-gray-500 uppercase tracking-widest">github.com/sulemandev04-bit</span>
-        </a>
-        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="flex flex-col items-center gap-1 group">
-          <div className="p-3 bg-white text-black border border-white/20 rounded-xl group-hover:text-cyan-400 group-hover:border-cyan-400/50 transition-all">
-            <User size={24} className="transition-transform duration-200 ease-out group-hover:scale-110" />
-          </div>
-          <span className="text-[10px] text-gray-500 uppercase tracking-widest">linkedin.com</span>
-        </a>
-        <a href="mailto:sulemandev04@gmail.com" className="flex flex-col items-center gap-1 group">
-          <div className="p-3 bg-white text-black border border-white/20 rounded-xl group-hover:text-cyan-400 group-hover:border-cyan-400/50 transition-all">
-            <Mail size={24} className="transition-transform duration-200 ease-out group-hover:scale-110" />
-          </div>
-          <span className="text-[10px] text-gray-500 uppercase tracking-widest">sulemandev04@gmail.com</span>
-        </a>
-        <a href="tel:+919372769176" className="flex flex-col items-center gap-1 group">
-          <div className="p-3 bg-white text-black border border-white/20 rounded-xl group-hover:text-cyan-400 group-hover:border-cyan-400/50 transition-all">
-            <Phone size={24} className="transition-transform duration-200 ease-out group-hover:scale-110" />
-          </div>
-          <span className="text-[10px] text-gray-500 uppercase tracking-widest">+919372769176</span>
-        </a>
-      </div>
+      {/* Footer now contains links for all pages */}
     </section>
   );
 }
