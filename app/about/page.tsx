@@ -31,7 +31,7 @@ export default function AboutPage() {
           </p>
 
           <div className="inline-block px-4 py-2 rounded-lg bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-bold mb-12 uppercase tracking-widest">
-            Experience: 1.5+ Years[cite: 2]
+            Experience: 0.6 Years[cite: 2]
           </div>
 
           {/* Feature Grid - Bento Style */}

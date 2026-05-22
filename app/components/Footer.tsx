@@ -15,7 +15,7 @@ export default function Footer() {
             <span className="sm:hidden text-sm text-gray-300">GitHub</span>
           </a>
 
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="flex items-center gap-3 px-3 py-2 rounded-xl bg-white/3 border border-white/5 hover:border-blue-400 transition-all">
+          <a href="https://www.linkedin.com/in/suleman-khan-66071b398" target="_blank" rel="noreferrer" className="flex items-center gap-3 px-3 py-2 rounded-xl bg-white/3 border border-white/5 hover:border-blue-400 transition-all">
             <div className="p-2 rounded-md bg-white text-black">
               <User size={16} />
             </div>

@@ -24,23 +24,13 @@ export default function ContactPage() {
           {/* Left Side: Contact Info Cards (Bento Style) */}
           <div className="lg:col-span-5 space-y-4">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <a href="mailto:sulemandev04@gmail.com" className="p-6 rounded-3xl bg-white/2 border border-white/5 hover:border-cyan-500/30 transition-all flex flex-col items-center gap-4">
-                <div className="p-4 rounded-2xl bg-cyan-500/10 text-cyan-400 group-hover:scale-110 transition-transform">
-                  <Mail size={24} />
-                </div>
-                <div className="text-center">
-                  <p className="text-xs text-gray-500 uppercase font-bold tracking-widest">Email</p>
-                  <p className="text-sm sm:text-lg font-medium">sulemandev04@gmail.com</p>
-                </div>
-              </a>
-
-              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="p-6 rounded-3xl bg-white/2 border border-white/5 hover:border-blue-500/30 transition-all flex flex-col items-center gap-4">
+              <a href="https://www.linkedin.com/in/suleman-khan-66071b398" target="_blank" rel="noreferrer" className="p-6 rounded-3xl bg-white/2 border border-white/5 hover:border-blue-500/30 transition-all flex flex-col items-center gap-4">
                 <div className="p-4 rounded-2xl bg-white text-black">
                   <ExternalLink className="text-blue-500" />
                 </div>
                 <div className="text-center">
                   <p className="text-xs text-gray-500 uppercase font-bold tracking-widest">LinkedIn</p>
-                  <p className="text-sm sm:text-lg font-medium">linkedin.com</p>
+                  
                 </div>
               </a>
 
@@ -50,7 +40,15 @@ export default function ContactPage() {
                 </div>
                 <div className="text-center">
                   <p className="text-xs text-gray-500 uppercase font-bold tracking-widest">GitHub</p>
-                  <p className="text-sm sm:text-lg font-medium">github.com/sulemandev04-bit</p>
+                </div>
+              </a>
+
+              <a href="mailto:sulemandev04@gmail.com" className="p-6 rounded-3xl bg-white/2 border border-white/5 hover:border-cyan-500/30 transition-all flex flex-col items-center gap-4">
+                <div className="p-4 rounded-2xl bg-cyan-500/10 text-cyan-400 group-hover:scale-110 transition-transform">
+                  <Mail size={24} />
+                </div>
+                <div className="text-center">
+                  <p className="text-xs text-gray-500 uppercase font-bold tracking-widest">Email</p>
                 </div>
               </a>
             </div>

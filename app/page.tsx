@@ -19,7 +19,7 @@ export default function HeroPage() {
       </h1>
       
       <p className="text-gray-300 font-medium text-lg sm:text-2xl mb-6">
-        React.js Developer | 1.5 Years Experience
+        React.js Developer | 0.6 Years Experience
       </p>
       
       <p className="text-gray-400 max-w-2xl text-base sm:text-lg mb-10 leading-relaxed">
